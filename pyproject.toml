@@ -1,0 +1,16 @@
+[project]
+name = "rag-poc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "faiss-cpu>=1.10.0",
+    "langchain>=0.3.24",
+    "langchain-community>=0.3.22",
+    "openai>=1.76.0",
+    "pdfplumber>=0.11.6",
+    "sentence-transformers>=4.1.0",
+    "unstructured>=0.17.2",
+]
